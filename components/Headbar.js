@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router';
 import styles from '@/components/styles/Headbar.module.css'
-import Feed from '../pages/feed/[pid]';
+
 
 const Headbar = () => {
     const router = useRouter();
