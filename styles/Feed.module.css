@@ -1,0 +1,77 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.bar {
+    margin-bottom: 30px;
+    align-items: center;
+    font-size: 20px;
+    word-spacing: 5px;
+    display: flex;
+    flex-direction: row;
+    white-space: 20px;
+}
+.ops {
+    margin-left: 10px;
+}
+.sort {
+    margin-left: 14rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.post {
+    width : 600px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post p {
+    padding: 25px;
+}
+
+.post h1 {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.paginator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: 2px solid red;
+    border-radius: 2px;
+    padding: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.paginator div {
+    margin: 0rem 8rem 2rem 8rem;
+}
+
+.paginator .active {
+    cursor: pointer;
+    
+}
+
+.paginator .disabled {
+    cursor: not-allowed;
+    color: rgb(179, 179, 179);
+}

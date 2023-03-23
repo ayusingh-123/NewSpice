@@ -1,0 +1,45 @@
+.main {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    
+    background-color: black;
+   
+    
+}
+.main p{
+    color: rgb(237, 81, 81);
+    font-size: 25px;
+    margin-top: 10px;
+    padding-left: 30px;
+    margin-right: 18rem;
+    justify-content: left;
+    
+}
+
+.main div{
+    
+    margin: 15px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: larger;
+    padding-left: 20px;
+    
+}
+
+.main div:hover {
+    color: rgb(255, 127, 127);
+}
+
+/* .search button{
+    border: 1px solid #16161698;
+    padding: 0.5rem 2rem;
+    background-color: #fef2f2;
+    cursor: pointer;
+    color: #161616;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all 0.3s;
+    
+} */
+
